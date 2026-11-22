@@ -1,0 +1,15 @@
+# requirements — ONLY install inside ~/ml_env (never system pip), per project rule
+# SPDX-License-Identifier: GPL-3.0-only
+# Author: Vaibhav (holds final power over the project)
+# What this does: pins the exact libs the GUI needs. Most already in ml_env.
+# Install with: source ~/ml_env/bin/activate && pip install -r requirements.txt
+PySide6==6.11.2
+pyqtgraph==0.14.0
+numpy==2.5.3
+pandas==3.0.3
+scipy==1.18.0
+numba==0.67.0
+requests==2.34.2
+requests-cache==1.2.1
+aiohttp==3.14.3
+matplotlib==3.11.1
